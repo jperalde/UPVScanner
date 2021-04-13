@@ -36,5 +36,3 @@ As can be seen in the examples, all the words in the name must have the first le
 Another option is to modify the data inside datos.sql and write in cmd '.read datos.sql'.
 
 The file 'hacerfotos.mlapp' is used to obtain test images like the ones that would be obtained in the UPVScanner application.
-
-Translated with www.DeepL.com/Translator (free version)
