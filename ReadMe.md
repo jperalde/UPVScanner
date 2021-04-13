@@ -16,20 +16,20 @@ To try an executable go to UPVScanner\test.
 
 To insert data into the database open the window command window in the 'bd' folder. Type 'sqlite3 test.db'.
 
-´´´
+```sql
 C:\Users\jorge\Desktop\proyecto tdi\bd>sqlite3 test.db
 sqlite> .read crearAlumno.sql
 sqlite> .read crearAula.sql
 sqlite> .read crearAsignatura.sql
 sqlite> .read datos.sql
-´´´
+```
 An example on the SQL functions to write in 'test.db':
 
-´´´
+```sql
 insert into Alumno values('John Snow','123456789');
 insert into Aula values('EPSG','1B','20');
 insert into Asignatura values ('TDIV','30','14:20','15:50','EPSG','1A','20','John Snow');
-´´´
+```
 
 As can be seen in the examples, all the words in the name must have the first letter capitalized.
 
